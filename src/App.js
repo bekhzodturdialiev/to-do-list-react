@@ -1,10 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
-    <h1>123</h1>
+    <div className="todo">
+      <div className="todo__sidebar">
+      </div>
+      <div className="todo__tasks"></div>
+    </div>
   );
 }
 
