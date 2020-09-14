@@ -14,6 +14,7 @@ function App() {
             {
               icon: <BaseIcon path={`${SymbolSvg}#list`} color="#f4f4f4" height="18" width="18" />,
               name: 'Все задачи',
+              active: true,
             },
           ]}
         />
@@ -22,14 +23,17 @@ function App() {
             {
               color: '#42B883',
               name: 'Покупки',
+              class: 'badge',
             },
             {
               color: '#64C4ED',
               name: 'Фронтенд',
+              class: 'badge',
             },
             {
               color: '#FFBBCC',
               name: 'Фильмы и сериалы',
+              class: 'badge',
             },
           ]}
         />
