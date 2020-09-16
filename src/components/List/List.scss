@@ -1,6 +1,21 @@
 .todo {
   &__list {
     margin-bottom: 30px;
+
+    &__add-button {
+      span {
+        color: #868686;
+      }
+      &:hover {
+        span {
+          color: black;
+        }
+        svg {
+          stroke: black;
+        }
+      }
+    }
+
     li {
       display: flex;
       align-items: center;
@@ -16,12 +31,6 @@
       i {
         display: inline-flex;
         margin-right: 8px;
-
-        svg {
-          path {
-            fill: #7c7c7c;
-          }
-        }
       }
 
       .badge {

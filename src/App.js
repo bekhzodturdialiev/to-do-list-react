@@ -12,7 +12,7 @@ function App() {
         <List
           items={[
             {
-              icon: <BaseIcon path={`${SymbolSvg}#list`} color="#f4f4f4" height="18" width="18" />,
+              icon: <BaseIcon path={`${SymbolSvg}#list`} color="#7c7c7c" height="18" width="18" />,
               name: 'Все задачи',
               active: true,
             },
@@ -34,6 +34,16 @@ function App() {
               color: '#FFBBCC',
               name: 'Фильмы и сериалы',
               class: 'badge',
+            },
+          ]}
+          isRemovable
+        />
+        <List
+          items={[
+            {
+              className: 'todo__list__add-button',
+              icon: <BaseIcon path={`${SymbolSvg}#add`} stroke="#868686" height="13" width="12" />,
+              name: 'Добавить список',
             },
           ]}
         />
